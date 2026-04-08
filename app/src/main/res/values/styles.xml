@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Icon style for Home screen categories -->
+    <style name="iconStyle">
+        <item name="android:layout_width">56dp</item>
+        <item name="android:layout_height">56dp</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:background">@drawable/item_bg</item>
+        <item name="android:padding">8dp</item>
+    </style>
+
+</resources>

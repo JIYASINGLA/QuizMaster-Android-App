@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_blue"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <!-- App Title -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quiz Master"
+        android:textColor="@color/white"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Welcome Text -->
+    <TextView
+        android:id="@+id/tvWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome, User!"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:layout_marginBottom="24dp"/>
+
+    <!-- Start Quiz Button -->
+    <Button
+        android:id="@+id/btnStartQuiz"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Start Quiz"
+        android:background="@drawable/btn_green"
+        android:textColor="@color/white"/>
+
+    <!-- Choose Category Button -->
+    <Button
+        android:id="@+id/btnChooseCategory"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Choose Category"
+        android:background="@drawable/btn_purple"
+        android:textColor="@color/white"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Leaderboard Button -->
+    <Button
+        android:id="@+id/btnLeaderboard"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Leaderboard"
+        android:background="@drawable/btn_orange"
+        android:textColor="@color/white"
+        android:layout_marginTop="16dp"/>
+
+    <!-- DeviceInfo Button -->
+    <Button
+        android:id="@+id/btnDeviceInfo"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Device Info"
+        android:background="@drawable/btn_red"
+        android:textColor="@color/white"
+        android:layout_marginTop="16dp"/>
+
+    <!-- SensorTes Button -->
+    <Button
+        android:id="@+id/btnSensorTest"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Sensor Test"
+        android:background="@drawable/btn_yellow"
+        android:textColor="@color/white"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>
